@@ -1,4 +1,4 @@
-# imagedenoising
+# IMAGE DENOISING USING DEEP LEARNING
 
 ABSTRACT <br />
 <br />
