@@ -5,7 +5,7 @@ Within the field of image restoration, convolutional neu- ral networks (CNNs) ha
 
 
 
-![alt text](https://github.com/MadsBirch/imagedenoising/blob/figures/bestmodel5.png?raw=true)
+![alt text](https://github.com/MadsBirch/imagedenoising/blob/main/figures/best_model5.png?raw=true)
 
 
 
