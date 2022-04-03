@@ -7,7 +7,7 @@ Within the field of image restoration, convolutional neu- ral networks (CNNs) ha
 From the figure below it is evident that at the current noise level, specified in 2.1, only the small U-Net and ResNet-18 are pow-
 erful enough to getting close to recovering the clean image X from the degraded input image Y. The CNN and the two CNNs with a fully connected layer are nowhere near powerful enough to reconstruct X to a satisfactory degree. Hence, the required model performance is heavily dependent on the specified noise level. For that reason, this paper experimented with several different noise levels. On one hand the noise level had to be high enough to force the model to learn more robust features, but on the other hand the noise level also had to be representative of the noise level in the application images.
 
-![Figure 1](https://github.com/MadsBirch/imagedenoising/blob/main/figures/best_model5.png?raw=true)
+![Figure 1](https://github.com/MadsBirch/imagedenoising/blob/main/figures/best_model5.png?raw=true) <br />
 *Figure 1*
 
 Choosing an appropriate loss function is essential, because it defines the desired outcome of the model. In this section, it will be investigated how different loss functions result in different outcomes in terms of image quality. The figure visualizes image reconstructions of the small U-Net using a range of different loss functions; SSIM, MSE/L2, L1 and BCE. As discussed in 2.3, the MSE loss does not correlate well with how the HVS perceives image quality [5]. This lack of correspondence is due to the simplicity of the MSE loss. Contrary to the MSE loss, the SSIM loss is designed to better correlate with how HVS functions by taking luminance, contrast and structure into account [4].
