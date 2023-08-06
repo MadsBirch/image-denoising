@@ -2,13 +2,12 @@
 
 ABSTRACT <br />
 <br />
-Image restoration is a highly active area of research, as smartphone cameras often provide noisy low quality images. Overall, Convolutional Neural Networks have proven to perform well as an image denoising technique, but skip-connection architectures perform particularly well [1], [2]. Hence, this
-paper set out to identify the best performing architecture on an image restoration task. Furthermore, this paper investigated the effects of the skip-connection architecture on modelconvergence and performance. Finally, several loss functions were implemented to investigate how different loss functions result in different image restoration qualities. This paper found that the U-Net architecture with the Structural Similarity Index Measure loss function performed the best on the current task of image restoration.
+Image restoration is a highly active area of research, as smartphone cameras often provide noisy low quality images. Overall, Convolutional Neural Networks have proven to perform well as an image denoising technique, but skip-connection architectures perform particularly well [1], [2]. Hence, this paper set out to identify the best performing architecture on an image restoration task. Furthermore, this paper investigated the effects of the skip-connection architecture on modelconvergence and performance. Finally, several loss functions were implemented to investigate how different loss functions result in different image restoration qualities. This paper found that the U-Net architecture with the Structural Similarity Index Measure loss function performed the best on the current task of image restoration.
 
 
 INTRODUCTION <br />
 <br />
-Within the field of image restoration, convolutional neural networks (CNNs) have proved to perform well [1], [2]. In particular, architectures implementing skip-connections have performed well due to a focus on residual learning [1]. For that reason, this paper experimented with several different CNN architectures of increasing complexity with a focus on skip-connection architectures. Additionally, since the aim of this paper is to restore high quality images to facilitate the diagnosis process of human specialists, a big part of this pa- per was to identify a loss function addressing how the Human Visual System (HVS) is thought to work [3], [4].
+Within the field of image restoration, convolutional neural networks (CNNs) have proved to perform well [1], [2]. In particular, architectures implementing skip-connections have performed well due to a focus on residual learning [1]. For that reason, this paper experimented with several different CNN architectures of increasing complexity with a focus on skip-connection architectures. Additionally, since the aim of this paper is to restore high quality images to facilitate the diagnosis process of human specialists, a big part of this paper was to identify a loss function addressing how the Human Visual System (HVS) is thought to work [3], [4].
 
 
 RESULTS <br />
