@@ -24,7 +24,7 @@ Choosing an appropriate loss function is essential, because it defines the desir
 
 From Fig. 2 it is evident that the SSIM loss results higher image quality due to a focus on reconstructing structural information. By focusing on structural information the resulting reconstruction is sharper with easily distinguishable edges. In contrast, the MSE loss resulted in blurry reconstructions with edges being less distinguishable (Fig. 7). Additionally, this paper found that the L1 loss slightly outperformed the MSE loss. The image quality of L1 is slightly higher in terms of color restoration and sharpness (Fig. 7). This finding is sim
 
-![Figure 1](https://github.com/MadsBirch/imagedenoising/blob/main/figures/loss_results.png?raw=true) <br />
+![Figure 2](https://github.com/MadsBirch/imagedenoising/blob/main/figures/loss_results.png?raw=true) <br />
 *Figure 2*
 
 REFERENCES:<br />
